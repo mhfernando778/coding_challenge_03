@@ -10,11 +10,11 @@ console.log("Prices:", prices); // logging the updated array of prices
 
 
 //Task 2 - Modifying Customer Orders //
-let orders = [10, 15, 12, 20, 18];
-console.log(orders);
+let orders = [10, 15, 12, 20, 18]; // declaring an array with 5 orders
+console.log("Orders:", orders); // logging the the array of orders
 
-orders[2] += 5;
-console.log("New Orders:", orders);
+orders[2] += 5; // adding 5 to the third order
+console.log("New Orders:", orders); // logging the addition to the array
 
-let totalOrders = orders.reduce((sum, orders) => sum + orders, 0)
-console.log(totalOrders);
+let totalOrders = orders.reduce((sum, orders) => sum + orders, 0); // adding all the orders togther
+console.log("Total Orders Amount", totalOrders); // logging the total ammount of orders
