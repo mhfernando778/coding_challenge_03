@@ -39,8 +39,9 @@ let feedback = [
     {customerName: "Customer Name", feedbackText: "Excellent experience", rating: 5},
     {customerName: "New Customer", feedbackText: "Good experience", rating: 4},
     {customerName: "Regina George", feedbackText: "Totes BAD!!", rating: 1}
-];
-console.log("Customer Feedback:", feedback);
+]; // an array with three different objects
+console.log("Customer Feedback:", feedback); //logging the array countaining customer feedback
 
-feedback.push({customerName: "Bucky Barnes", feedbackText: "I loved it", rating: 5});
-console.log("New Feedback:", feedback);
+feedback.push({customerName: "Bucky Barnes", feedbackText: "I loved it", rating: 5}); // adding a new object to the array
+console.log("New Feedback:", feedback); // logging the updated array
+
