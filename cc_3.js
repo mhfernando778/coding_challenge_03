@@ -52,7 +52,8 @@ let inventory = {
     price: 500,
     calculateTotalValue: function() {
         return this.stockCount * this.price;
-    }
-};
-console.log("Inventory:", inventory);
+    } // multiplies stock count by price
+}; // creating an object with inventory details
+
+console.log("Inventory:", inventory); // logging the inventory information and output
 
