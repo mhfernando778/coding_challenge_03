@@ -45,3 +45,14 @@ console.log("Customer Feedback:", feedback); //logging the array countaining cus
 feedback.push({customerName: "Bucky Barnes", feedbackText: "I loved it", rating: 5}); // adding a new object to the array
 console.log("New Feedback:", feedback); // logging the updated array
 
+// Task 5 - Inventory Management System //
+let inventory = {
+    itemName: "PS5",
+    stockCount: 10,
+    price: 500,
+    calculateTotalValue: function() {
+        return this.stockCount * this.price;
+    }
+};
+console.log("Inventory:", inventory);
+
