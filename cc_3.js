@@ -8,3 +8,13 @@ console.log("Updated Prices:", prices); // logging the updated array of prices
 let removedPrices = prices.shift(); // removing the first price from the array
 console.log("Prices:", prices); // logging the updated array of prices
 
+
+//Task 2 - Modifying Customer Orders //
+let orders = [10, 15, 12, 20, 18];
+console.log(orders);
+
+orders[2] += 5;
+console.log("New Orders:", orders);
+
+let totalOrders = orders.reduce((sum, orders) => sum + orders, 0)
+console.log(totalOrders);
