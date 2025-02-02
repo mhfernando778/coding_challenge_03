@@ -18,3 +18,18 @@ console.log("New Orders:", orders); // logging the addition to the array
 
 let totalOrders = orders.reduce((sum, orders) => sum + orders, 0); // adding all the orders togther
 console.log("Total Orders Amount", totalOrders); // logging the total ammount of orders
+
+// Task 3 - Employee Performance Tracking //
+let employee = {
+    name: "Employee Name",
+    role: "Accountant",
+    performanceScore: 100,
+    isActive: true
+};
+console.log("Employee:", employee);
+
+employee.performanceScore = 95;
+console.log("Updated Performance Score:", employee.performanceScore);
+
+employee.promotionEligible = true;
+console.log(employee);
